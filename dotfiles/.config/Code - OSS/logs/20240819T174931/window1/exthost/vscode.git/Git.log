@@ -1,0 +1,56 @@
+2024-08-19 17:49:39.955 [info] [main] Log level: Info
+2024-08-19 17:49:39.956 [info] [main] Validating found git in: "git"
+2024-08-19 17:49:39.956 [info] [main] Using git "2.46.0" from "git"
+2024-08-19 17:49:39.956 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-19 17:49:39.956 [info] > git rev-parse --show-toplevel [13ms]
+2024-08-19 17:49:39.956 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:39.956 [info] > git rev-parse --show-toplevel [11ms]
+2024-08-19 17:49:39.956 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:39.956 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-19 17:49:39.956 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:39.958 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-19 17:49:39.958 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:39.970 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-19 17:49:39.970 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:39.981 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-19 17:49:39.981 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:39.992 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-19 17:49:39.992 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:40.006 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-19 17:49:40.006 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:40.019 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-19 17:49:40.019 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:40.030 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 17:49:40.030 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:40.039 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 17:49:40.039 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:40.049 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 17:49:40.049 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:40.071 [info] > git rev-parse --show-toplevel [15ms]
+2024-08-19 17:49:40.080 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-19 17:49:40.100 [info] [Model][openRepository] Opened repository: /home/qewa/yay-bin
+2024-08-19 17:49:40.103 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-19 17:49:40.117 [info] > git config --get commit.template [9ms]
+2024-08-19 17:49:40.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [56ms]
+2024-08-19 17:49:40.174 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/qewa/yay-bin/.git/refs/remotes/origin/master'
+2024-08-19 17:49:40.175 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-08-19 17:49:40.214 [info] > git status -z -uall [32ms]
+2024-08-19 17:49:40.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2024-08-19 17:49:40.311 [info] > git config --local branch.master.vscode-merge-base [51ms]
+2024-08-19 17:49:40.316 [info] > git config --get commit.template [74ms]
+2024-08-19 17:49:40.324 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [8ms]
+2024-08-19 17:49:40.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 17:49:40.391 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/qewa/yay-bin/.git/refs/remotes/origin/master'
+2024-08-19 17:49:40.392 [info] > git merge-base refs/heads/master refs/remotes/origin/master [63ms]
+2024-08-19 17:49:40.399 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2024-08-19 17:49:40.405 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [7ms]
+2024-08-19 17:49:40.412 [info] > git status -z -uall [8ms]
+2024-08-19 17:49:40.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 17:49:40.431 [info] > git diff --name-status -z --diff-filter=ADMR 02b6d8096ff282f183b6b8c474581a0120c57b4a...refs/remotes/origin/master [20ms]
+2024-08-19 17:49:40.441 [info] > git config --local branch.master.vscode-merge-base [11ms]
+2024-08-19 17:49:40.449 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-08-19 17:49:40.823 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-19 17:49:41.053 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 17:49:41.053 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 17:49:55.562 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 17:49:55.562 [info] fatal: not a git repository (or any of the parent directories): .git

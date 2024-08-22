@@ -1,0 +1,10 @@
+2024-08-20 20:16:28.763 [info] Extension host with pid 18640 started
+2024-08-20 20:16:28.763 [info] Skipping acquiring lock for /home/qewa/.config/Code - OSS/User/workspaceStorage/0d01d0aff73e5c0324b3623fb602d10f.
+2024-08-20 20:16:28.779 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-20 20:16:28.806 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-20 20:16:28.981 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-20 20:16:29.504 [info] Eager extensions activated
+2024-08-20 20:16:29.518 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-20 20:16:29.527 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-20 20:16:29.626 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-20 20:30:37.673 [warning] [Decorations] CAPPING events from decorations provider vscode.git 560
