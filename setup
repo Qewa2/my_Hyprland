@@ -1,0 +1,9 @@
+#
+#!/bin/bash
+#
+
+#install python
+exec "sudo pacman -S python"
+
+#execute setup.p
+exec "python setup.py"
