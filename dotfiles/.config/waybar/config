@@ -118,7 +118,7 @@
       "format": "  {:%H:%M}",
       "interval": 60,
       "tooltip": true,
-      "tooltip-format": "{:%d %B %H:%M %p}"
+      "tooltip-format": "{:%d %B %H:%M}"
     },
     "disk": {
       "interval": 30,
