@@ -115,10 +115,10 @@
       "on-click": "pavucontrol"
     },
     "clock": {
-      "format": "  {:%I:%M}",
+      "format": "  {:%H:%M}",
       "interval": 60,
       "tooltip": true,
-      "tooltip-format": "{:%d %B %I:%M %p}"
+      "tooltip-format": "{:%d %B %H:%M %p}"
     },
     "disk": {
       "interval": 30,
