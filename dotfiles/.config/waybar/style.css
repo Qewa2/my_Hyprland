@@ -22,6 +22,7 @@
   color: #fa5aa4;
 }
 
+#battery,
 #custom-powermenu,
 #custom-chrome,
 #custom-terminal,
@@ -34,6 +35,7 @@
 #window,
 #pulseaudio,
 #disk,
+#custom-discord,
 #custom-updates,
 #network {
   padding: 4px 8px;
@@ -51,11 +53,11 @@
 }
 
 #custom-updates {
-  color: #1788e4;
+  color: #00bbff;
 }
 
 #custom-powermenu {
-  color: #e06c75;
+  color: #fc033d;
   padding-right: 11px;
   margin-right: 8px;
 }
@@ -66,44 +68,56 @@
   padding-left: 4px;
 }
 
-#pulseaudio,
+#pulseaudio{
+  color: #00ffc8;
+}
+
 #custom-terminal
 {
-  color: #0fb9b1;
+  color: #00ffa2;
   padding-right: 14px;
 }
 
 #cpu {
-  color: #61afef;
+  color: #00bbff;
 }
 
 #temperature {
-  color: #98c379;
+  color: #00ff4c;
 }
 
-#memory,
+#memory{
+  color: #03fca5;
+}
 #custom-folder
 {
   color: #e5c07b;
 }
 
 #network {
-  color: #c678dd;
+  color: #c300ff;
   min-width: 200px;
 }
 
 #clock {
   color: #fff;
   margin-left: 8px;
-  /* opacity: 0.7; */
-  /* font-size: 18px; */
+  /*opacity: 0.7;
+  font-size: 18px;*/
 }
 
 #disk {
-  color: #FFA500;
+  color: #ff5100;
 } 
 
 #custom-chrome {
   color: #d36bed;
 }
+#custom-discord{
+  color : #00b7ff;
+}
 
+#battery {
+    /*color: #03fca5;*/
+    color: #FFA500;
+}

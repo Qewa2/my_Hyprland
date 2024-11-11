@@ -2,12 +2,7 @@ import subprocess
 import os
 
 # initialize vars
-neededPkgs = ['alsa-utils', 'base', 'base-devel', 'code', 'cowsay', 'dolphin', 'efibootmgr', 'firefox', 'fzf', 'git',
-'gst-plugin-pipewire', 'hyprland', 'hyprpaper', 'intel-ucode', 'kitty', 'libpulse', 'linux', 'linux-firmware',
-'man-db', 'mpv', 'neofetch', 'networkmanager', 'ollama', 'openssh', 'pacman-contrib', 'pacman4console', 'pavucontrol', 'pipewire',
-'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'python-pip', 'python-yaml', 'qjackctl', 'sl', 'sof-firmware',
-'spiderfoot', 'ttf-font-awesome', 'ttf-meslo-nerd-font-powerlevel10k', 'vim', 'waybar', 'wireplumber', 'wlogout', 'wofi',
-'yay-bin', 'yay-bin-debug', 'yazi']
+neededPkgs = ['alsa-utils', 'autofs', 'base', 'base-devel', 'bat', 'blueman', 'bluez', 'bluez-utils', 'brightnessctl', 'btop', 'cmatrix', 'cowsay', 'cpupower', 'dolphin', 'efibootmgr', 'exfatprogs', 'fastfetch', 'firefox', 'fzf', 'git', 'grim', 'gst-plugin-pipewire', 'hyprland', 'hyprlock', 'hyprpaper', 'inkscape', 'intel-ucode', 'kitty', 'labymod-appimage', 'libpulse', 'linux', 'linux-firmware', 'man-db', 'mesa-demos', 'mpv', 'neofetch', 'network-manager-applet', 'networkmanager', 'nvidia', 'ollama', 'openrazer-meta-git', 'openssh', 'owofetch-git', 'pacman-contrib', 'pavucontrol', 'pipewire', 'pipewire-alsa', 'pipewire-jack', 'polychromatic', 'pulseaudio-alsa', 'pulseaudio-bluetooth', 'python', 'python-pip', 'python-yaml', 'qjackctl', 'rate-mirrors', 'razercfg', 'sddm', 'sl', 'slurp', 'sof-firmware', 'starship', 'steam', 'traceroute', 'tree', 'ttf-font-awesome', 'ttf-meslo-nerd-font-powerlevel10k', 'unrar', 'unzip', 'vim', 'vulkan-tools', 'waybar', 'waypaper', 'wine', 'wireplumber', 'wireshark-qt', 'wlogout', 'wofi', 'wtf', 'yay', 'yazi', 'yt', 'zram-generator']
 
 
 def get_installed_packages():
@@ -42,10 +37,8 @@ else:
     print("git is installed")
 
 if not("yay-bin" in installed_packages):
-    os.system("git clone https://aur.archlinux.org/yay-bin.git")
-    os.system("cd yay-bin")
-    os.system("makepkg -si")
-    os.system("cd ..")
+    os.system("git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && cd ..")
+    
 else:
     print("yay is installed")
 os.system("yay -Syu")
