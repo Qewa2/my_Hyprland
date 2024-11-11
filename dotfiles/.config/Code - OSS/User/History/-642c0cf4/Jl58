@@ -1,0 +1,9 @@
+output: main.o
+	g++ main.o rand_range.o -o Main
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+clean:
+	make
+	rm *.o

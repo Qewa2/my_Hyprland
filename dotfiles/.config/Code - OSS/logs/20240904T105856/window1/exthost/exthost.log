@@ -1,0 +1,11 @@
+2024-09-04 10:59:00.268 [info] Extension host with pid 8455 started
+2024-09-04 10:59:00.268 [info] Skipping acquiring lock for /home/qewa/.config/Code - OSS/User/workspaceStorage/c805c19608d8383ef0a87caee63dabc3.
+2024-09-04 10:59:00.417 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-04 10:59:00.440 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-09-04 10:59:00.827 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-04 10:59:00.852 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-04 10:59:00.948 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-04 10:59:01.332 [info] Eager extensions activated
+2024-09-04 10:59:01.343 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-04 10:59:01.358 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-04 10:59:01.388 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'

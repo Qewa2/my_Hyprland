@@ -1,0 +1,27 @@
+2024-09-01 23:56:50.053 [info] Started local extension host with pid 11003.
+2024-09-01 23:56:53.468 [info] [perf] Render performance baseline is 20ms
+2024-09-01 23:58:55.310 [error] End of central directory record signature not found. Either not a zip file, or file is truncated.: Error: End of central directory record signature not found. Either not a zip file, or file is truncated.
+    at $ (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:48:2266)
+    at /usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:48:3717
+    at /usr/lib/code/node_modules.asar/yauzl/index.js:40:7
+    at /usr/lib/code/node_modules.asar/yauzl/index.js:190:5
+    at Immediate.<anonymous> (/usr/lib/code/node_modules.asar/yauzl/index.js:705:38)
+    at process.processImmediate (node:internal/timers:478:21)
+2024-09-01 23:59:08.966 [error] End of central directory record signature not found. Either not a zip file, or file is truncated.: Error: End of central directory record signature not found. Either not a zip file, or file is truncated.
+    at $ (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:48:2266)
+    at /usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:48:3717
+    at /usr/lib/code/node_modules.asar/yauzl/index.js:40:7
+    at /usr/lib/code/node_modules.asar/yauzl/index.js:190:5
+    at Immediate.<anonymous> (/usr/lib/code/node_modules.asar/yauzl/index.js:705:38)
+    at process.processImmediate (node:internal/timers:478:21)
+2024-09-01 23:59:25.458 [error] End of central directory record signature not found. Either not a zip file, or file is truncated.: Error: End of central directory record signature not found. Either not a zip file, or file is truncated.
+    at $ (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:48:2266)
+    at /usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:48:3717
+    at /usr/lib/code/node_modules.asar/yauzl/index.js:40:7
+    at /usr/lib/code/node_modules.asar/yauzl/index.js:190:5
+    at Immediate.<anonymous> (/usr/lib/code/node_modules.asar/yauzl/index.js:705:38)
+    at process.processImmediate (node:internal/timers:478:21)
+2024-09-01 23:59:39.302 [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

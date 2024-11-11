@@ -1,0 +1,31 @@
+{
+    "custom/run": {
+      "format": " \udb85\uddfc ",
+      "tooltip": false,
+      "on-click": "wofi --show drun"
+    },
+    "custom/verticbar":{
+      "format": " ",
+      "tooltip": false
+    },
+    "wlr/taskbar": {
+	"sort-by-app-id": true,
+	"format": "{icon}",
+	"icon-size": 40,
+	"icon-theme": "Numix-Circle",
+	"tooltip-format": "{title}",
+	"on-click": "activate",
+	"on-click-middle": "close",
+	"ignore-list": [
+	    "kitten"
+	],
+	"app_ids-mapping": {
+		"firefoxdeveloperedition": "firefox-developer-edition"
+	},
+	"rewrite": {
+		"Firefox Web Browser": "Firefox",
+		"Foot Server": "Terminal"
+	}
+}   
+    }
+}

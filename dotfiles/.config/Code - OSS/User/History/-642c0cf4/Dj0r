@@ -1,0 +1,14 @@
+output: main.o rand_range.o
+	g++ main.o rand_range.o -o Main
+
+# Regel für die main.o (Objektdatei von main.cpp)
+main.o: main.cpp
+	g++ -c main.cpp
+
+# Regel für die rand_range.o (Objektdatei von rand_range.cpp)
+rand_range.o: rand_range.cpp rand_range.h
+	g++ -c rand_range.cpp
+
+# Regel für das Löschen der Objektdateien und der ausführbaren Datei
+clean:
+	rm -f *.o Main

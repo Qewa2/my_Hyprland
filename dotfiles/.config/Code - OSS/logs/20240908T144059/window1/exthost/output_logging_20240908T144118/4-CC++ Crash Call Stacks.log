@@ -1,0 +1,18 @@
+A C/C++ extension process has crashed. The crashing process name, date/time, signal, and call stack are below -- it would be helpful to include that in a bug report at https://github.com/Microsoft/vscode-cpptools/issues.
+
+cpptools-srv
+9/8/2024, 2:52:46 PM
+SIGSEGV
+get_mangled_function_name(a_routine*, int)+257
+edge::scope_entry::compute_functions() const+194
+edge::scope_entry::ensure_functions() const+33
+…
+…
+edge::intellisense_operation::get_auto_complete_members(edge::member_selection_entry*&, edge::scope_entry*&, edge::list<edge::symbol*>*, edge::list<edge::symbol*>*, edge::list<edge::symbol*>*, edge::list<edge::symbol*>*, edge::intellisense_operation::member_list_kind, bool, bool&, bool&, bool&, std::map<edge::symbol*, unsigned int, std::less<edge::symbol*>, std::allocator<std::pair<edge::symbol* const, unsigned int>>>*)+1938
+edge::intellisense_operation::get_auto_complete_members(edge::member_selection_entry*&, edge::scope_entry*&, edge::list<edge::symbol*>*, edge::list<edge::symbol*>*, edge::list<edge::symbol*>*, edge::list<edge::symbol*>*, std::map<edge::symbol*, unsigned int, std::less<edge::symbol*>, std::allocator<std::pair<edge::symbol* const, unsigned int>>>*, edge::intellisense_operation::member_list_kind)+63
+std::_Function_handler<void (edge::intellisense_operation&, bool&), edge_intellisense_server_impl::handle_completion(cpp_intellisense::DocumentPosition const&, bool, std::string const&, cpp_intellisense::CompletionResponse&)::{lambda(edge::intellisense_operation&, bool&)#2}>::_M_invoke(std::_Any_data const&, edge::intellisense_operation&, bool&)+116
+void edge_intellisense_operation::perform_isense_operation<bool>(char const*, edge::file_position const&, std::function<void (edge::intellisense_operation&, bool&)>&&, bool&, snapshot::snapshot_session_t, bool)+211
+edge_intellisense_server_impl::handle_completion(cpp_intellisense::DocumentPosition const&, bool, std::string const&, cpp_intellisense::CompletionResponse&)+2237
+cpp_intellisense::server_stub::handle_completion(msvc::deserializer_t&, msvc::serializer_t&)+271
+msvc::base_channel_t::dispatch_message(std::vector<unsigned char, std::allocator<unsigned char>> const&, std::vector<unsigned char, std::allocator<unsigned char>>&)+633
+msvc::common_channel_t::perform_call(unsigned int, std::vector<unsigned char, std::allocator<unsigned char>> const&)+66

@@ -1,0 +1,5 @@
+#
+#wlogout
+#
+
+hyprlock
