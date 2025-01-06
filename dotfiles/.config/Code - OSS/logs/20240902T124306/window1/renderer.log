@@ -1,7 +1,0 @@
-2024-09-02 12:43:09.717 [info] Started local extension host with pid 5118.
-2024-09-02 12:43:13.146 [info] [perf] Render performance baseline is 22ms
-2024-09-02 12:43:31.267 [error] Extension 'ms-vscode.cpptools CANNOT USE these API proposals 'terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-2024-09-02 12:43:39.679 [error] Unable to install extension 'ms-vscode.cpptools' because it is not found.: Error: Unable to install extension 'ms-vscode.cpptools' because it is not found.
-    at ne.install (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2724:30180)
-    at async handler (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2724:48490)
-2024-09-02 12:47:26.357 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: issueReporter.experimental.auxWindow

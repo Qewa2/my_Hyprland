@@ -1,3 +1,0 @@
-2024-09-02 14:25:33.117 [info] Started local extension host with pid 47462.
-2024-09-02 14:25:33.739 [error] Extension 'ms-vscode.cpptools CANNOT USE these API proposals 'terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-2024-09-02 14:25:35.753 [info] [perf] Render performance baseline is 20ms
